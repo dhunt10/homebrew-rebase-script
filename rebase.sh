@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #must be done in bash shell, exit zsh/other for this to work
 
 git checkout <branch name>
