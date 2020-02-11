@@ -10,6 +10,6 @@ git pull
 git checkout -b NEW_BRANCH
 for file in $FILES; do git checkout <branch name> $file; done
 git commit -m 'message'
-git push -f -u origin NEW_CAT_BRANCH:<branch name>
+git push -f -u origin NEW_BRANCH:<branch name>
 git branch -D <branch name>
 git branch -M <branch name>
