@@ -6,11 +6,13 @@ cd $(git rev-parse --show-toplevel) # need to be in root directory
 
 read -p 'Name of current branch: ' branch_name
 
+read -p 'Name of parent branch: ' parent
+
 git checkout $(branch_name)
 
-FILES=$(git diff master.. --name-only)
+FILES=$(git diff $parent.. --name-only)
 
-git checkout master                                                                                                                                                                                         
+git checkout $parent                                                                                                                                                                                         
 
 git pull
 
@@ -25,3 +27,5 @@ git push -f -u origin NEW_BRANCH:$branch_name
 git branch -D $branch_name
 
 git branch -M $branch_name
+
+git branch -D NEW_BRANCH
