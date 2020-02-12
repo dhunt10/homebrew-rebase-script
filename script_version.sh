@@ -5,7 +5,7 @@ bash
 cd $(git rev-parse --show-toplevel) # need to be in root directory
 #must be done in bash shell, exit zsh/other for this to work
 
-read -p 'Name of currentbranch: ' $(branch_name)
+read -p 'Name of current branch: ' $(branch_name)
 git checkout $(branch_name)
 FILES=$(git diff master.. --name-only)
 git checkout master
