@@ -1,6 +1,6 @@
 #!/bin/bash
-
-
+bash
+cd $(git rev-parse --show-toplevel) # need to be in root directory
 #must be done in bash shell, exit zsh/other for this to work
 
 git checkout <branch name>
