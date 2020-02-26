@@ -8,7 +8,7 @@ read -p 'Name of current branch: ' branch_name
 
 read -p 'Name of parent branch: ' parent
 
-git checkout $(branch_name)
+git checkout $branch_name
 
 FILES=$(git diff $parent.. --name-only)
 
@@ -18,7 +18,7 @@ git pull
 
 git checkout -b NEW_BRANCH
 
-for file in $FILES; do git checkout $(branch_name) $file; done
+for file in $FILES; do git checkout $branch_name $file; done
 
 git commit -m 'message'
 
