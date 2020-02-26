@@ -27,5 +27,3 @@ git push -f -u origin NEW_BRANCH:$branch_name
 git branch -D $branch_name
 
 git branch -M $branch_name
-
-git branch -D NEW_BRANCH
