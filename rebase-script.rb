@@ -3,7 +3,7 @@ class Notes < Formula
   homepage "https://github.com/dhunt10/rebase-script"
   url "https://github.com/dhunt10/rebase-script/blob/development/rebase-script.sh.gz"
   version "1.0.0"
-  shasum "e548bc0e212e2f7f6c0561fd633fd4a61f082cf4"
+  sha256 "cb245f4f0c656816f33e95fb09d7846defafa153734361f6af0ed832a9857380"
 
   def install
     bin.install "bin/rebase"
