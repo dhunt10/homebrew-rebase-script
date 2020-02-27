@@ -1,4 +1,4 @@
-class Notes < Formula
+class RebaseScript < Formula
   desc "..."
   homepage "https://github.com/dhunt10/rebase-script"
   url "https://github.com/dhunt10/rebase-script/blob/development/rebase-script.sh.gz"
