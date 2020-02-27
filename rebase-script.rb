@@ -6,7 +6,7 @@ class RebaseScript < Formula
   sha256 "cb245f4f0c656816f33e95fb09d7846defafa153734361f6af0ed832a9857380"
 
   def install
-    bin.install "bin/rebase"
+    bin.install "bin/rebase-script"
     prefix.install Dir["_completions"]
     prefix.install Dir["_helpers"]
     prefix.install Dir["_config"]
