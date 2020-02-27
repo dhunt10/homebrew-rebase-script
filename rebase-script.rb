@@ -1,7 +1,7 @@
 class Notes < Formula
   desc "..."
   homepage "https://github.com/dhunt10/rebase-script"
-  url "https://github.com/kylebebak/notes/archive/1.0.0.tarball.gz"
+  url "https://github.com/dhunt10/rebase-script/blob/development/rebase-script.sh.gz"
   version "1.0.0"
   shasum "e548bc0e212e2f7f6c0561fd633fd4a61f082cf4"
 
